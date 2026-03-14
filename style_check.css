@@ -1,0 +1,156 @@
+/* Cuerpo de la pagina */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+
+/* Cabecera de la pagina */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 55px;
+    background-color: #f9f9f9;
+    padding: 25px;
+
+    /*     position: fixed;
+    width: 100%;
+    z-index: 1000; */
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 70px;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.Check-In {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    background-color: #6bcffa;
+    color: #000000;
+    font-size: 16px;
+    padding: 2px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 28px;
+    transition: all 0.3s ease;
+}
+
+.Check-In:hover {
+    background-color: #ff0000;
+}
+
+/* Inicio de sesión */
+
+.sesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    width: 153px;
+    height: 40px;
+    margin-right: 90px;
+    border: 2px solid #000000;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sesion:hover {
+    background-color: #dcdcdc;
+}
+
+.logo {
+    width: 153px;
+    height: 40px;
+    /* background-color: #f9f9f9; */
+}
+
+.contenedor_posicion {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.img_banner {
+    width: 996px;
+    height: 356px;
+    background-color: #0000ff;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+
+.imagen_banner {
+    width: 100%;
+    height: 100%;
+    background-image: url(assest/img_check.svg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txt_banner {
+    width: 410px;
+    height: 356px;
+    background-color: #087CEF;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+    position: relative;   
+}
+
+
+.txt_checkin {
+    width: 317px;
+    height: 71px;
+    color: white;
+    text-align: start;
+    margin-top: 43px;
+}
+
+.txt_desc_check {
+    width: 297px;
+    height: 102px;
+    color: white;
+    text-align: justify;
+}
+
+.btn_checkin {
+    padding: 5px 29px;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 5%;
+    
+}
+
+.texto_checkin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.texto_checkin p{
+    margin-top: 1px;
+}

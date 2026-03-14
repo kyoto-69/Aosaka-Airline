@@ -1,0 +1,373 @@
+/* Cuerpo de la pagina */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    width: 100%;
+
+}
+
+/* Cabecera de la pagina */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 25px;
+    background-color: #f9f9f9;
+    padding: 25px 0 25px 30px;
+    background-color: #F0F0F0;
+}
+
+
+nav a {
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 70px;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.Check-In {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    background-color: #6bcffa;
+    color: #000000;
+    font-size: 16px;
+    padding: 2px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 28px;
+    transition: all 0.3s ease;
+}
+
+.Check-In:hover {
+    background-color: #ff0000;
+}
+
+/* Inicio de sesión */
+
+.sesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    width: 153px;
+    height: 40px;
+    margin-right: 90px;
+    border: 2px solid #000000;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sesion:hover {
+    background-color: #dcdcdc;
+}
+
+.logo {
+    width: 171px;
+    height: 54.21px;
+    margin: 0px 0px 0px 85px;
+}
+
+/* Contenedor para el texto principal */
+
+.contenedor_principal {
+
+    height: 429px;
+    position: relative;
+    background-color: #000000;
+}
+
+.contenedor_texto {
+    width: 50%;
+    height: 429px;
+    background-color: #ffffff;
+    font-size: 60px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Contenedor para la imagen principal */
+
+.contenedor_img {
+    width: 50%;
+    height: 429px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #6bcffa;
+}
+
+.imagen {
+    width: 100%;
+    height: 429px;
+    background-image: url(assest/img_principal_mascota.svg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Primer bloque de imagen y texto descriptivo */
+
+.primera_imagen_con_texto {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    flex-wrap: wrap;
+}
+
+.contenedor_img_1 {
+    width: 734px;
+    height: 340px;
+    border-radius: 7px;
+    margin: 0px 60px 90px 0px;
+    background-color: #000000;
+}
+
+.imagen_1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    background-image: url(assest/img_compra_transportin.svg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.contenedor_texto_1 h1 {
+    font-size: 27px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.contenedor_texto_1 {
+    text-align: justify;
+}
+
+/* Segundo bloque de imagen y texto descriptivo */
+
+.segunda_imagen_con_texto {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.contenedor_img_2 {
+    width: 734px;
+    height: 340px;
+    border-radius: 7px;
+    margin: 0px 60px 90px 60px;
+    background-color: #000000;
+}
+
+.imagen_2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    background-image: url(assest/segunda_img_mascota.svg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.contenedor_texto_2 h1 {
+    font-size: 27px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.contenedor_texto_2 {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+
+
+
+/* Tercer bloque de imagen y texto descriptivo */
+
+
+.tercera_imagen_con_texto {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    flex-wrap: wrap;
+}
+
+.contenedor_img_3 {
+    width: 734px;
+    height: 340px;
+    border-radius: 7px;
+    margin: 0px 60px 90px 0px;
+    background-color: #000000;
+}
+
+.imagen_3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    background-image: url(assest/tercera_imagen_mascota.svg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.contenedor_texto_3 h1 {
+    font-size: 27px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.contenedor_texto_3 {
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .primera_imagen_con_texto,
+    .segunda_imagen_con_texto,
+    .tercera_imagen_con_texto {
+        flex-direction: column;
+        padding: 20px 20px;
+        gap: 30px;
+    }
+}
+
+/* Contenedor del banner para registrar mascota  */
+
+.contenedor_registrar {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contenedor_img_4 {
+    width: 100%;
+    height: 576px;
+    background-image: url(assest/full-shot-smiley-woman-with-cute-dog\ 1.svg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+
+.texto_registrar_mascota {
+    font-size: 59px;
+    margin: 45px 0 223px 74px;
+    color: white;
+}
+
+.boton_registrar a {
+    padding: 5px 25px 5px 25px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 436px 0 68px 74px;
+    position: absolute;
+    top: 20px;
+}
+
+/* Pie de pagina */
+
+.pie_pagina {
+    display: flex;
+    width: 100%;
+    height: 297px;
+    background-color: #F9F9F9;
+}
+
+.contenedor_5 {
+    display: flex;
+    gap: 3%;
+    margin-left: 10px;
+    width: 100%;
+}
+
+
+.logo_pie_pagina img {
+    margin: 50px 75px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.logo_pie_pagina img:hover {
+    transform: scale(1.1);
+}
+
+.descubre {
+    font-size: 24px;
+    margin-top: 3%;
+    margin-left: 60px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.mejor_oferta {
+    display: flex;
+    font-size: 16px;
+    margin: 11px 0px 0px 0px;
+    font-weight: 400;
+}
+
+/* Texto de las redes sociales */
+
+.redes_sociales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-top: 50px;
+    margin-right: 60px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.4;
+}
+
+/* Iconos de las redes sociales */
+
+.iconos_redes {
+    margin-top: 10px;
+    display: flex;
+    gap: 4px;
+}
+
+/*Pequeña animación al pasar el cursor por encima de los iconos */
+
+.iconos_redes img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.iconos_redes img:hover {
+    transform: scale(1.1);
+}

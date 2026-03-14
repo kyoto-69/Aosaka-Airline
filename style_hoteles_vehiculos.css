@@ -1,0 +1,333 @@
+/* Cuerpo de la pagina */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+
+/* Cabecera de la pagina */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 55px;
+    background-color: #f9f9f9;
+    padding: 25px;
+
+    /*     position: fixed;
+    width: 100%;
+    z-index: 1000; */
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 70px;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.Check-In {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    background-color: #6bcffa;
+    color: #000000;
+    font-size: 16px;
+    padding: 2px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 28px;
+    transition: all 0.3s ease;
+}
+
+.Check-In:hover {
+    background-color: #ff0000;
+}
+
+/* Inicio de sesión */
+
+.sesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    width: 153px;
+    height: 40px;
+    margin-right: 90px;
+    border: 2px solid #000000;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sesion:hover {
+    background-color: #dcdcdc;
+}
+
+.logo {
+    width: 153px;
+    height: 40px;
+    background-color: #f9f9f9;
+}
+
+/* Texto grande principal */
+
+.texto_grande_principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto_grande_principal p {
+    font-size: 60px;
+}
+
+/* Contenedores de los hoteles */
+.contenedor_2 {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    gap: 4%;
+}
+
+.caja {
+    width: 306px;
+    height: 366px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px #00000080;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.img_1 {
+    width: 100%px;
+    height: 100%px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin-top: 3%;
+}
+
+.items {
+    width: 100%;
+    margin-left: 8%;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.titulo1 {
+    font-size: 18.5px;
+    font-weight: 400;
+    margin: 10px 0px 0px;
+}
+
+.parking,
+.piscina,
+.wifi {
+    font-size: 14px;
+    color: #252525;
+    margin: 2px 0px 0px;
+}
+
+.parking img,
+.piscina img,
+.wifi img {
+    margin: 0px 5px 0px 0px;
+}
+
+.precio1 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    margin: 2px 0px 10px;
+}
+
+.ver_ahora {
+    padding: 5px 60px 5px 60px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: #6BCFFA;
+    color: white;
+}
+
+/* Texto grande secundario */
+
+.texto_grande_secundario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.texto_grande_secundario p {
+    font-size: 60px;
+}
+
+/* Banner con QR para ir a la pagina de hoteles y vehiculos */
+
+.contenedor_banner_QR {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.banner_con_QR {
+    width: 100%;
+    height: 436px;
+    background-image: url(assest/stylish-girl-posing-with-travel-equipment-red-wall.svg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.texto_dentro_del_banner {
+    margin: 50px 0px 285px 400px;
+}
+
+.texto_dentro_del_banner p{
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+
+.imagen_celular{
+  position: absolute;
+  top: 93px;
+  right: 400px;
+  bottom: 0px;
+}
+
+.codigo_qr{
+  position: absolute;
+  top: 200px;
+  left: 398px;
+}
+
+.google_play_banner{
+  position: absolute;
+  top: 230px;
+  left: 670px;
+}
+
+.appstore_banner{
+  position: absolute;
+  top: 310px;
+  left: 670px;
+}
+
+
+/* Pie de pagina */
+
+.pie_pagina {
+  display: flex;
+  width: 100%;
+  height: 297px;
+  background-color: #F9F9F9;
+}
+
+.contenedor_5 {
+  display: flex;
+  gap: 3%;
+  margin-left: 10px;
+  width: 100%;
+}
+
+
+.logo_pie_pagina img {
+  margin: 50px 75px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.logo_pie_pagina img:hover {
+  transform: scale(1.1);
+}
+
+.descubre {
+  font-size: 24px;
+  margin-top: 3%;
+  margin-left: 60px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.mejor_oferta {
+  display: flex;
+  font-size: 16px;
+  margin: 11px 0px 0px 0px;
+  font-weight: 400;
+}
+
+/* Texto de las redes sociales */
+
+.redes_sociales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 50px;
+  margin-right: 60px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  line-height: 1.4;
+}
+
+/* Iconos de las redes sociales */
+
+.iconos_redes {
+  margin-top: 10px;
+  display: flex;
+  gap: 4px;
+}
+
+/*Pequeña animación al pasar el cursor por encima de los iconos */
+
+.iconos_redes img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.iconos_redes img:hover {
+  transform: scale(1.1);
+}
+
+/* Reorganiza el header para que los elementos estén en columna (apilados) en pantallas pequeñas */
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    padding: 10px 0px;
+  }
+}
