@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <strong>🌐 Sitio en vivo:</strong> https://tu-usuario.github.io/nombre-repositorio/<br>
+  <strong>🌐 Sitio en vivo:</strong> https://kyr3-fxp.github.io/Aosaka-Airline/<br>
   <strong>✨ Descripción corta:</strong> Portfolio personal / Landing page moderna y responsive diseñada para mostrar mis proyectos y habilidades como [desarrollador frontend / diseñador / etc].
 </p>
 
