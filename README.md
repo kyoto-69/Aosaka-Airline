@@ -35,8 +35,8 @@
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/nombre-repositorio.git
+git clone https://github.com/kyr3-fxp/Aosaka-Airline.git
 
 # Entrar a la carpeta
-cd nombre-repositorio
+cd Aosaka-Airline
 
